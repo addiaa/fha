@@ -3,6 +3,10 @@
     src: url(Montserrat-VariableFont_wght.ttf);
 }
 
+body {
+    margin: 0px;
+}
+
 .nav-link {
     font-family: "Montserrat", sans-serif;
     font-weight: 300;
@@ -70,7 +74,7 @@ a:link, a:visited{
 }
 
 .main-box {
-    margin: 6px;
+    margin: 4px;
 }
 
 h1 {
