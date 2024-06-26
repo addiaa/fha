@@ -163,11 +163,14 @@ p {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-
+    background-image: linear-gradient(rgba(255,255,255,0.25), rgba(255,255,255,0.25)), url(house.jpg);
+    background-size: cover;
     width: 100%;
     height: 700px;
-    background-image: url(house.jpg);
-    background-size: cover;
+}
+
+.fha-title {
+    text-align: center;
 }
 
 .about-box-who {
@@ -175,6 +178,8 @@ p {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+
+    text-align: left;
 }
 
 .about-box-mission {
@@ -182,6 +187,8 @@ p {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+
+    text-align: right;
 }
 
 footer {
