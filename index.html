@@ -20,15 +20,15 @@ h4: titles -->
             </div>
             <ul class="sidebar">
                 <li onclick=hideSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="26px" viewBox="0 -960 960 960" width="26px" fill="#000000"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg></a></li>
-                <li><a href="#home-menu">Home</a></li>
-                <li><a href="#about-menu">About</a></li>
-                <li><a href="#">Team</a></li>
-                <li><a href="https://docs.google.com/forms/d/e/1FAIpQLSfLwwkIRXtnVyBrZxTD0WVG9ygYSYQw-7A09d_OuewTMayR0A/viewform?usp=sf_link">Join Us!</a></li>
+                <li onclick=hideSidebar()><a href="#home-menu">Home</a></li>
+                <li onclick=hideSidebar()><a href="#about-menu">About</a></li>
+                <li onclick=hideSidebar()><a href="#team-menu">Team</a></li>
+                <li onclick=hideSidebar()><a href="https://docs.google.com/forms/d/e/1FAIpQLSfLwwkIRXtnVyBrZxTD0WVG9ygYSYQw-7A09d_OuewTMayR0A/viewform?usp=sf_link">Join Us!</a></li>
             </ul>
             <ul>
                 <li class="hideOnMobile"><a href="#home-menu">Home</a></li>
                 <li class="hideOnMobile"><a href="#about-menu">About</a></li>
-                <li class="hideOnMobile"><a href="#">Team</a></li>
+                <li class="hideOnMobile"><a href="#team-menu">Team</a></li>
                 <li class="hideOnMobile"><a href="https://docs.google.com/forms/d/e/1FAIpQLSfLwwkIRXtnVyBrZxTD0WVG9ygYSYQw-7A09d_OuewTMayR0A/viewform?usp=sf_link">Join Us!</a></li>
                 <li class="menu-button" onclick=showSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="26px" viewBox="0 -960 960 960" width="26px" fill="#000000"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg></a></li>
             </ul>
@@ -61,9 +61,30 @@ h4: titles -->
                 <h4>Our mission</h4>
             </div>
         </div>
+
+        <!-- TEAM section -->
+        <div id="team-menu" class="team-box">
+            <div class="meet">
+                <p>MEET</p>
+            </div>
+            <div class="theteam">
+                <h4>The Team</h4>
+            </div>
+            <div class="team-picture-box">
+                <div class="profile-box">
+                    <img src="michael.png" alt="Michael Cambare">
+                    <h1>Michael Cambare</h1>
+                    <p>Insert bio here</p>
+                </div>
+
+                <div class="profile-box">
+                    <img src="ryan.jpg" alt="Ryan Meagher">
+                    <h1>Ryan Meagher</h1>
+                    <p>Insert bio here</p>
+                </div>
+            </div>
+        </div>
     </div>
-
-
 
     <!-- FOOTER section -->
     <footer>

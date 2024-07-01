@@ -12,6 +12,10 @@ body {
     min-height: 100vh;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 /* .nav-link {
     font-family: "Montserrat", sans-serif;
     font-weight: 300;
@@ -262,6 +266,59 @@ p {
     padding: 20px;
 }
 
+.meet {
+    padding: 20px
+}
+
+.theteam {
+    padding: 20px;
+}
+
+.team-picture-box {
+    display: flex;
+    flex-direction: column;
+}
+
+.team-picture-box img {
+    border-radius: 50%;
+    width: 350px;
+}
+
+.profile-box {
+    display: flex;
+    flex-direction: column;
+
+    padding: 40px;
+}
+
+.team-picture-box h1 {
+    font-family: "Montserrat", sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+
+    padding-top: 20px;
+}
+
+.team-picture-box p {
+    font-family: "Montserrat", sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    
+    padding-top: 10px;
+}
+
+.team-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #6da6bd54;
+    border-radius: 5%;
+
+    padding: 20px;
+    text-align: center;
+}
+
 footer {
     display: flex;
     flex-direction: row;
@@ -280,6 +337,14 @@ footer {
 
     .about-box-mission {
         padding: 40px;
+    }
+
+    .team-box {
+        padding: 40px;
+    }
+
+    .team-picture-box {
+        flex-direction: row;
     }
 
     .footer-box {
