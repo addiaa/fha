@@ -248,7 +248,7 @@ p {
 
 .about-box-who {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: space-between;
     align-items: center;
 
@@ -258,12 +258,25 @@ p {
 
 .about-box-mission {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: space-between;
     align-items: center;
 
     text-align: right;
     padding: 20px;
+}
+
+.about-box-who h4 {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.about-box-mission h4 {
+    padding-bottom: 20px;
+}
+
+.about-box-mission p {
+    padding-bottom: 20px;
 }
 
 .desc-box-right {
@@ -273,7 +286,7 @@ p {
 
 .desc-box-left {
     text-align: justify;
-    width: 80%;
+    width: 100%;
 }
 
 /* meet */
@@ -332,11 +345,7 @@ p {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-image: linear-gradient(rgba(255,255,255,0.4), rgba(255,255,255,0.4)), url(sky.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: top;
-    /* background-color: #6da6bd54; */
+    background-color: #6da6bd54;
 
     padding: 20px;
     text-align: center;
@@ -360,6 +369,19 @@ footer {
 
     .about-box-mission {
         padding: 40px;
+    }
+
+    .about-box-who h4 {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+    
+    .about-box-mission h4 {
+        padding-bottom: 40px;
+    }
+    
+    .about-box-mission p {
+        padding-bottom: 40px;
     }
 
     .desc-box-right {
