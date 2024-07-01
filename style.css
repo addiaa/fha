@@ -266,12 +266,22 @@ p {
     padding: 20px;
 }
 
-.meet {
-    padding: 20px
+/* meet */
+.team-box h2 {
+    font-family: "Montserrat", sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    letter-spacing: 2px;
+
+    padding: 20px;
 }
 
-.theteam {
-    padding: 20px;
+/* the team */
+.team-box h3 {
+    font-family: "Montserrat", sans-serif;
+    font-size: 40px;
+    font-weight: 200;
+    letter-spacing: 6px;
 }
 
 .team-picture-box {
@@ -281,7 +291,7 @@ p {
 
 .team-picture-box img {
     border-radius: 50%;
-    width: 350px;
+    width: 280px;
 }
 
 .profile-box {
@@ -294,15 +304,15 @@ p {
 .team-picture-box h1 {
     font-family: "Montserrat", sans-serif;
     font-size: 20px;
-    font-weight: 400;
+    font-weight: 300;
 
     padding-top: 20px;
 }
 
 .team-picture-box p {
     font-family: "Montserrat", sans-serif;
-    font-size: 20px;
-    font-weight: 300;
+    font-size: 16px;
+    font-weight: 200;
     
     padding-top: 10px;
 }
@@ -312,8 +322,11 @@ p {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: #6da6bd54;
-    border-radius: 5%;
+    background-image: linear-gradient(rgba(255,255,255,0.4), rgba(255,255,255,0.4)), url(sky.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+    /* background-color: #6da6bd54; */
 
     padding: 20px;
     text-align: center;
@@ -341,6 +354,27 @@ footer {
 
     .team-box {
         padding: 40px;
+    }
+
+    .team-box h2 {
+        font-size: 15px;
+    }
+    
+    /* the team */
+    .team-box h3 {
+        font-size: 50px;
+    }
+
+    .team-picture-box img {
+        width: 350px;
+    }
+
+    .team-picture-box h1 {
+        font-size: 25px;
+    }
+    
+    .team-picture-box p {
+        font-size: 20px;
     }
 
     .team-picture-box {
