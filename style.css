@@ -268,12 +268,12 @@ p {
 
 .desc-box-right {
     text-align: justify;
-    width: 70%;
+    width: 100%;
 }
 
 .desc-box-left {
     text-align: justify;
-    width: 70%;
+    width: 80%;
 }
 
 /* meet */
@@ -363,12 +363,10 @@ footer {
     }
 
     .desc-box-right {
-        text-align: justify;
         width: 50%;
     }
 
     .desc-box-left {
-        text-align: justify;
         width: 50%;
     }
 
