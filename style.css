@@ -25,11 +25,11 @@ html {
 
 .join-button {
     appearance: none;
-    background-color: transparent;
-    border: 2px solid #1A1A1A;
+    background-color: #1a1a1aaf;
+    /* border: 2px solid #fff; */
     border-radius: 15px;
     box-sizing: border-box;
-    color: #3B3B3B;
+    color: #fff;
     cursor: pointer;
     display: inline-block;
     font-family: "Montserrat", sans-serif;
@@ -63,8 +63,8 @@ html {
 }
 
 .join-button:hover {
-    color: #fff;
-    background-color: #1A1A1A;
+    color: #3B3B3B;
+    background-color: transparent;
     box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
     transform: translateY(-2px);
 }
