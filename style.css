@@ -203,6 +203,7 @@ h4 {
 
 p {
     font-family: "Montserrat", sans-serif;
+    font-weight: 300;
     font-size: 14px;
 }
 
@@ -324,12 +325,28 @@ p {
     padding: 20px;
 }
 
+.profile-img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.bio-box {
+    text-align: justify;
+}
+
+.bio-box h5 {
+    font-family: "Montserrat", sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+}
+
 .team-picture-box h1 {
     font-family: "Montserrat", sans-serif;
-    font-size: 20px;
-    font-weight: 300;
+    font-size: 25px;
+    font-weight: 400;
 
-    padding-top: 20px;
+    padding: 20px;
 }
 
 .team-picture-box p {
@@ -410,7 +427,7 @@ footer {
     }
 
     .team-picture-box h1 {
-        font-size: 25px;
+        font-size: 30px;
     }
     
     .team-picture-box p {
@@ -423,6 +440,11 @@ footer {
 
     .profile-box {
         padding: 50px;
+    }
+
+    .bio-box h5 {
+        font-family: "Montserrat", sans-serif;
+        font-size: 20px;
     }
 
     .footer-box {
